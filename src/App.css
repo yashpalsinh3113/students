@@ -1,0 +1,172 @@
+body{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5; 
+}
+
+.App {
+  text-align: center;
+  border: 1px solid grey;
+  width: 95vw;
+  height: 95vh;
+  border-radius: 20px;
+  box-shadow:0px 0px 5px 2px rgb(194, 196, 191);
+
+}
+
+.closeButton{
+  font-size: 20px;
+  border-radius: 10px;
+  height: 40px;
+  border: none;
+  background-color: rgb(108, 108, 143);
+}
+
+
+.model{
+ top: 0;
+ bottom: 0;
+ width: 95vw;
+ height: 100vh;
+ background: rgba(0, 0, 0, 0.5);
+ position: fixed;
+ display: flex;
+ justify-content: center;
+ align-items:flex-start;
+
+}
+
+.base-model{
+  width: 600px;
+  max-width: 90%;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.login-model{
+  width: 400px;
+  max-width: 90%;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.login-button{
+  width: 100%;
+  padding: 10px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 20px;
+}
+
+.login-model input {
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.head{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+
+.base-model input {
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group select{
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-row{
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+#student-data{
+  width: 95%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#student-data td{
+  border: 1px solid #ccc;
+   padding: 5px;
+}
+
+#student-data th {
+    border: 1px solid #ccc;
+    background-color: rgb(184, 182, 182);
+    padding: 5px;
+}
+
+#student-data td button{
+  margin-left: 5px;
+  width: 40%;
+  padding: 3px;
+}
+
+.login-heading{
+   font-size: 25px;
+   font-weight: bold;
+   margin-bottom: 30px;
+   width: 100%;
+   text-align: center;
+}
+
+.form-group label{
+  padding-bottom: 10px;
+}
+
+.button{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoutButton{
+  padding: 10px 20px;
+   margin-top: 40px;
+  margin-right: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(14 13 13 / 80%);
+  font-size: 20px;
+  color: white;
+}
+
+.addButton{
+  padding: 10px 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(108, 108, 143);
+}
