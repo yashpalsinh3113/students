@@ -24,6 +24,7 @@ const studentSlice = createSlice ({
         existing.address = address;
         existing.gender = gender;
         existing.date = date;
+
       }
     },
    }

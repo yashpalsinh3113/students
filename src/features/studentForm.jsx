@@ -12,6 +12,8 @@ const dispatch = useDispatch()
  const [selectedStudent, setSelectedStudent] = useState()
  const navigate = useNavigate();
 
+ const email = useSelector((state) => state.auth.user?.email)
+
 useEffect(() => {       
   console.log('Students updated:', students);
 }, [students]);
@@ -53,6 +55,7 @@ const handleLogout = () => {
                 <th>Address</th>
                 <th>Gender</th>
                 <th>Date</th>
+                 <th>Email</th>
                 <th>Action</th>
              </tr>
             </thead>
@@ -66,6 +69,7 @@ const handleLogout = () => {
               <td>{student.address}</td>
               <td>{student.gender}</td>
               <td>{student.date}</td>
+              <td>{email}</td>
               <td>
               <button onClick={() =>{ 
                   setSelectedStudent(student)
